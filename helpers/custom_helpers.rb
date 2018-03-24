@@ -5,7 +5,7 @@ module CustomHelpers
 
   def full_title(page_title=nil)
     page_title ||= ""
-    base_title = "Ben's Bibles"
+    base_title = "bensbibles"
     if page_title.empty?
       base_title
     else
