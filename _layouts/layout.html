@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include head-contents.html %}
+</head>
+
+<body>
+
+  {% include navigation.html %}
+  {% include header.html %}
+
+  {{ content }}
+
+{% include footer.html %}
+
+<!-- jQuery -->
+<script src="assets/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="assets/js/bootstrap.js"></script>
+
+<!-- Custom Theme JavaScript -->
+{% include scripts.html %}
+
+</body>
+
+</html>
